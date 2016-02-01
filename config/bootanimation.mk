@@ -12,8 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq (np_tuna,$(TARGET_PRODUCT))
+ifeq (np_grouper,$(TARGET_PRODUCT))
     PRODUCT_COPY_FILES += \
         vendor/np/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 endif
 
+ifeq (np_tuna,$(TARGET_PRODUCT))
+    PRODUCT_COPY_FILES += \
+        vendor/np/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+endif
