@@ -27,4 +27,8 @@ ifeq (np_bacon,$(TARGET_PRODUCT))
         vendor/np/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 endif
 
+ifeq (np_hammerhead,$(TARGET_PRODUCT))
+    PRODUCT_COPY_FILES += \
+        vendor/np/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+endif
 
