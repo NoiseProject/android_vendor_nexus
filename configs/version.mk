@@ -14,7 +14,7 @@
 
 #nexus versioning
 ifndef NEXUS_BUILD_TYPE
-    NEXUS_BUILD_TYPE := 
+    NEXUS_BUILD_TYPE := NP
 endif
 
 NEXUS_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(PURENEXUS_BUILD_TYPE)
