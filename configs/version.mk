@@ -13,11 +13,10 @@
 # limitations under the License.
 
 #nexus versioning
-ifndef NEXUS_BUILD_TYPE
-    NEXUS_BUILD_TYPE := NP
-endif
+NEXUS_BUILD_TIME := S9Q1
+NEXUS_BUILD_TYPE := Malloy
 
-NEXUS_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(PURENEXUS_BUILD_TYPE)
+NEXUS_VERSION := $(PLATFORM_VERSION)-$(NEXUS_BUILD_TIME)-$(NEXUS_BUILD_TYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nexus.version=$(NEXUS_VERSION)
