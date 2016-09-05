@@ -21,6 +21,9 @@ endif
 ifeq (nexus_grouper,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/nexus_grouper.mk
 endif
+ifeq (nexus_maguro,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/nexus_maguro.mk
+endif
 ifeq (nexus_shamu,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/nexus_shamu.mk
 endif
