@@ -24,14 +24,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/samsung/tuna/device.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := nexus_maguro
+PRODUCT_NAME := nexus_tuna
 PRODUCT_BRAND := Google
-PRODUCT_DEVICE := maguro
+PRODUCT_DEVICE := tuna
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
 
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=takju \
-    BUILD_FINGERPRINT=google/takju/maguro:6.0.0/MRA58K/1227136:user/release-keys \
+    BUILD_FINGERPRINT=google/takju/tuna:6.0.0/MRA58K/1227136:user/release-keys \
     PRIVATE_BUILD_DESC="takju-user 6.0.0 MRA58K 1227136 release-keys"

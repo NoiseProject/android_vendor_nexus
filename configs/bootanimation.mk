@@ -25,11 +25,12 @@ ifneq ($(filter nexus_grouper,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/nexus/prebuilt/bootanimation/grouper.zip:system/media/bootanimation.zip
 endif
-ifneq ($(filter nexus_maguro,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += \
-        vendor/nexus/prebuilt/bootanimation/maguro.zip:system/media/bootanimation.zip
-endif
 ifneq ($(filter nexus_shamu,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/nexus/prebuilt/bootanimation/shamu.zip:system/media/bootanimation.zip
 endif
+ifneq ($(filter nexus_tuna,$(TARGET_PRODUCT)),)
+    PRODUCT_COPY_FILES += \
+        vendor/nexus/prebuilt/bootanimation/tuna.zip:system/media/bootanimation.zip
+endif
+
