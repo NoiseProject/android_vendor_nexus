@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #nexus versioning
-NEXUS_BUILD_TIME := S9Q2
+NEXUS_BUILD_TIME := S9Q2.1
 NEXUS_BUILD_TYPE := Malloy
 
 NEXUS_VERSION := $(PLATFORM_VERSION)-$(NEXUS_BUILD_TIME)-$(NEXUS_BUILD_TYPE)
