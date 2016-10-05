@@ -13,8 +13,8 @@
 # limitations under the License.
 
 #nexus versioning
-NEXUS_BUILD_TIME := S9Q3
-NEXUS_BUILD_TYPE := Malloy
+NEXUS_BUILD_TIME := S10Q1
+NEXUS_BUILD_TYPE := Connie
 
 NEXUS_VERSION := $(PLATFORM_VERSION)-$(NEXUS_BUILD_TIME)-$(NEXUS_BUILD_TYPE)
 
